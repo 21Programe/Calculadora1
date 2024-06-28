@@ -52,11 +52,9 @@ export default function App() {
         calculator()
         return
       case '+/-':
-        setCurrentNumber(currentNumber * -1)
+        setCurrentNumber(currentNumber * -1 )
         return
-      case '%':
-        setCurrentNumber(currentNumber / 100)
-        return
+      
     }
 
     setCurrentNumber(currentNumber + buttonPressed)
@@ -107,7 +105,7 @@ const styles = StyleSheet.create({
     padding: 12,
     textAlign: "right"
   },
-  historyText:{
+  historyText: {
     color: "#ccc",
     fontSize: 20,
     marginRight: 10,
@@ -118,15 +116,15 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
   },
   button: {
-    backgroundColor: 'white',
+    backgroundColor: '#3A1078',
     alignItems: 'center',
     justifyContent: 'center',
-    minWidth: 90, 
+    minWidth: 90,
     minHeight: 90,
     flex: 2,
   },
   textButton: {
     color: "#7c7c7c",
     fontSize: 20,
-  } 
+  }
 });
