@@ -82,7 +82,7 @@ export default function App() {
         </TouchableOpacity>
           : // Mapeamento dos outros botões
           <TouchableOpacity onPress={() => handleInput(button)} key={button} style={styles.button}>
-            <Text style={[styles.textButton, {color: typeof(button) === 'number' ? 'black': '#0093a6'}]}>{button}</Text>
+            <Text style={[styles.textButton, {color: typeof(button) === 'number' ? '#fff' : '#bbb'}]}>{button}</Text>
           </TouchableOpacity>
         )}
       </View>
