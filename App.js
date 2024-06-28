@@ -52,11 +52,9 @@ export default function App() {
         calculator()
         return
       case '+/-':
-        setCurrentNumber(currentNumber * -1)
+        setCurrentNumber(currentNumber * -1 )
         return
-      case '%':
-        setCurrentNumber(currentNumber / 100)
-        return
+      
     }
 
     setCurrentNumber(currentNumber + buttonPressed)
