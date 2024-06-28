@@ -98,17 +98,17 @@ const styles = StyleSheet.create({
   results: {
     flex: 2,
     justifyContent: "center",
-    backgroundColor: "#f5f5f5"
+    backgroundColor: "#060047"
   },
   resultText: {
-    color: "#282F38",
+    color: "#fff",
     fontSize: 32,
     fontWeight: "bold",
     padding: 12,
     textAlign: "right"
   },
   historyText:{
-    color: "#7c7c7c",
+    color: "#ccc",
     fontSize: 20,
     marginRight: 10,
     alignSelf: 'flex-end',
